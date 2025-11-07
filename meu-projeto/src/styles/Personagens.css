@@ -1,0 +1,25 @@
+.personagens {
+  text-align: center;
+  padding: 40px;
+}
+
+.personagens .grid {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.personagens .card img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #8b0000;
+  cursor: pointer;
+}
+
+.personagens .card p {
+  margin-top: 10px;
+  font-weight: bold;
+}

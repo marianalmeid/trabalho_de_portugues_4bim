@@ -1,0 +1,13 @@
+.professora {
+  text-align: center;
+  padding: 40px;
+}
+
+.professora img {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #8b0000;
+  margin-bottom: 20px;
+}
