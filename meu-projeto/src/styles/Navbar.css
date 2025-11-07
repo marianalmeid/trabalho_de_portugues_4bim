@@ -1,13 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 .navbar {
   background-color: #8b0000;
   color: white;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 15px 30px;
+  padding: 15px 5vw;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
-
-  /* 🔹 ESSAS LINHAS MANTÊM FIXA NO TOPO */
   position: fixed;
   top: 0;
   left: 0;
@@ -18,16 +17,66 @@
 /* O restante do estilo continua igual */
 .navbar ul {
   display: flex;
-  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 3vw;
   list-style: none;
+  margin: 0;
+  padding: 0;
+  flex: 1;
 }
 
 .navbar a {
   color: white;
   text-decoration: none;
   font-weight: bold;
+  transition: 0.3s;
 }
 
 .navbar a:hover {
-  text-decoration: underline;
+  opacity: 0.5;
 }
+
+.navbar h1{
+  margin: 0;
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+@media (max-width: 900px) {
+  .navbar {
+    flex-direction: column; /* empilha o título e o menu */
+    align-items: center;
+    padding: 10px 4vw;
+  }
+
+  .navbar ul {
+    flex-wrap: wrap; /* quebra os itens se necessário */
+    justify-content: center;
+    gap: 4vw;
+    margin-top: 10px;
+  }
+
+  .navbar h1 {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .navbar ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .navbar a {
+    font-size: 0.9rem;
+  
+  }
+
+  .navbar h1{
+    font-size: 2rem;
+  }
+}
+
