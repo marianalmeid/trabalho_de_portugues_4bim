@@ -8,22 +8,53 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index: 2000;
 }
 
 .modal-content {
-  background: white;
+  background: #fff;
+  color: #000; /* 🔹 garante que o texto apareça */
   padding: 30px;
-  border-radius: 10px;
-  width: 400px;
-  text-align: center;
+  border-radius: 12px;
+  width: 90%;
+  max-width: 500px;
+  text-align: left;
+  line-height: 1.6;
+  overflow-y: auto;
+  max-height: 80vh;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
+
+.modal-content h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #e04000; /* 🔹 destaque do título */
+}
+
+.modal-content h4 {
+  font-size: 1rem;
+  margin-bottom: 20px;
+  color: #333;
+  font-weight: 500;
+}
+
+.modal-content p {
+  white-space: pre-line; /* 🔹 mantém quebras de linha nos textos longos */
+  color: #222;
 }
 
 .modal-content button {
-  background-color: #8b0000;
+  background-color: #e04000;
   color: white;
   border: none;
   padding: 10px 15px;
   margin-top: 15px;
   border-radius: 8px;
   cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.modal-content button:hover {
+  background-color: #832500;
 }

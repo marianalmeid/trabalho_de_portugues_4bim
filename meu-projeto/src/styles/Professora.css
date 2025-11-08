@@ -1,6 +1,8 @@
 .professora {
   text-align: center;
-  padding: 40px;
+  padding: 40px 20px;
+  overflow-y: auto;
+  max-height: 85vh;
 }
 
 .professora img {
@@ -8,6 +10,48 @@
   height: 180px;
   border-radius: 50%;
   object-fit: cover;
-  border: 3px solid #8b0000;
+  border: 3px solid #e04000;
+  margin: 20px 0;
+}
+
+.sandra {
+  font-size: 2rem;
+  color: #e04000;
   margin-bottom: 20px;
+}
+
+.professora p {
+  max-width: 800px;
+  margin: auto;
+  text-align: justify;
+  font-size: 1.05rem;
+  line-height: 1.6;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .sandra {
+    font-size: 1.5rem;
+  }
+
+  .professora p {
+    font-size: 1rem;
+    padding: 0 10px;
+  }
+
+  .professora img {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+@media (max-width: 480px) {
+  .professora p {
+    font-size: 0.95rem;
+  }
+
+  .professora img {
+    width: 130px;
+    height: 130px;
+  }
 }

@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 .home {
-  background-image: url("https://papodeboteco.net/wp-content/uploads/2020/09/Papo-Vladimir-O-Cortico-Imagem-08Set20-scaled.jpg");
+  background-image: url("https://i.postimg.cc/KjFVFRDt/fundo.jpg");
   background-size: cover;
   background-position: center;
-  height: 100vh;
+  height: 90vh;
   color: white;
   display: flex;
   justify-content: center;
@@ -22,4 +22,9 @@
   font-optical-sizing: auto;
   font-weight: bold;
   font-style: normal;
+  font-size: 4rem;
+}
+
+.utf{
+  font-size: 0.7rem;
 }

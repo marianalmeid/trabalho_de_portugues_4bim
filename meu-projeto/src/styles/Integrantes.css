@@ -1,6 +1,15 @@
 .integrantes {
   text-align: center;
   padding: 40px;
+  background-color: #1e1e1e;
+  color: white;
+  min-height: 100vh;
+  overflow-y: auto;
+}
+
+.integrantes h2 {
+  margin-bottom: 40px;
+  font-size: 1.8rem;
 }
 
 .grid {
@@ -10,15 +19,73 @@
   flex-wrap: wrap;
 }
 
-.card img {
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  object-fit: cover;
-  border: 3px solid #8b0000;
+.card {
+  background-color: #2a2a2a;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  width: 230px; 
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  word-wrap: break-word; 
+  overflow-wrap: break-word;
+  text-align: center;
 }
 
-.card p {
-  margin-top: 10px;
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+}
+
+.card img {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #e04000;
+}
+
+.card .nome {
+  margin-top: 12px;
   font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.card .email {
+  font-size: 0.9rem;
+  color: #ccc;
+  margin-top: 6px;
+  word-break: break-all;
+}
+
+.card .escolaridade {
+  font-size: 0.9rem;
+  color: #aaa;
+  margin-top: 4px;
+  line-height: 1.3;
+}
+
+/* 🔹 Responsividade */
+@media (max-width: 700px) {
+  .grid {
+    gap: 20px;
+  }
+
+  .card {
+    width: 190px;
+    padding: 15px;
+  }
+
+  .card img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .card .nome {
+    font-size: 1rem;
+  }
+
+  .card .email,
+  .card .escolaridade {
+    font-size: 0.
+  }
 }
