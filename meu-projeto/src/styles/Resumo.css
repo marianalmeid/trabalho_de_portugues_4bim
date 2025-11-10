@@ -4,12 +4,16 @@
   margin: auto;
   text-align: justify;
   overflow-y: auto;
-  max-height: 80vh;
+  min-height: 78.5vh;
 }
 
 .h1-resumo {
   color: #e04000;
   margin-bottom: 20px;
+}
+
+.p-resumo{
+  color: white;
 }
 
 /* Responsividade */

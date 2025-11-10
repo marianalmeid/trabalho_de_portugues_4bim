@@ -1,6 +1,8 @@
 .personagens {
   text-align: center;
-  padding: 40px;
+  padding: 19.2vh;
+  background-color: #1e1e1e;
+
 }
 
 .personagens .grid {
@@ -22,6 +24,7 @@
 .personagens .card p {
   margin-top: 10px;
   font-weight: bold;
+  color: white;
 }
 
 .h1-personagens{

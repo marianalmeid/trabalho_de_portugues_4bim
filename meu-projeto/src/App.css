@@ -9,6 +9,7 @@
 /* Mantém o padding para compensar a navbar fixa */
 .content {
   padding-top: 80px; /* ajusta de acordo com a altura da navbar */
+  background-color: #1e1e1e;
 }
 
 /* Restante do estilo padrão */

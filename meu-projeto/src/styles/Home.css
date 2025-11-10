@@ -3,7 +3,7 @@
   background-image: url("https://i.postimg.cc/KjFVFRDt/fundo.jpg");
   background-size: cover;
   background-position: center;
-  height: 90vh;
+  min-height: 89vh;
   color: white;
   display: flex;
   justify-content: center;
