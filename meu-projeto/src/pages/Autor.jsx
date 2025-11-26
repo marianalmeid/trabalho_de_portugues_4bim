@@ -8,9 +8,7 @@ export default function Autor() {
       <h1 className="h1-autor">Sobre o Autor</h1>
       <h2 className="autor-h2">Aluísio de Azevedo</h2>
       <p className="p-autor">
-        <strong>Aluísio Azevedo</strong> foi um importante escritor brasileiro do século XIX,
-        conhecido por suas obras naturalistas. Além de "O Cortiço", escreveu "Casa de Pensão" e "O Mulato",
-        explorando temas sociais e raciais com forte crítica à sociedade da época.
+        <strong>Aluísio Azevedo</strong> foi um escritor, jornalista e diplomata brasileiro, considerado o principal nome e introdutor do Naturalismo na literatura brasileira. Nascido em São Luís, no Maranhão, em 1857, ele é mais conhecido por obras como "O Mulato" (que marca o início do Naturalismo no Brasil), "Casa de Pensão" e "O Cortiço", que retratam a sociedade de forma crítica e pessimista, influenciado por Eça de Queirós e Émile Zola. Além de escritor, foi caricaturista e se tornou diplomata em 1895, morrendo em Buenos Aires em 1913. 
       </p>
     </div>
   );

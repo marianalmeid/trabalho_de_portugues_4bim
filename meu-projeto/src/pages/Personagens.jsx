@@ -37,21 +37,30 @@ Sem nossas mãos, não há riqueza, não há cidade, não há progresso.
 E, mesmo que minha voz se perca no vento, que ecoe a verdade: o mundo é injusto com quem trabalha.`
   },
   {
-    nome: "Rita Baiana",
-    imagem: "https://i.postimg.cc/fyGNxwct/rita.jpg",
-    titulo: "Entrevista com Rita Baiana",
-    subtitulo: "A mulher que leva cor e alegria ao cortiço",
-    texto: `🗣️ Entrevistador: Rita, como é viver no cortiço?
+    nome: "Barão Miranda",
+    imagem: "https://i.postimg.cc/W4GSGbLM/miranda.jpg",
+    titulo: "Entrevista com o Barão Miranda",
+    subtitulo: "A ascensão social de um homem que sempre buscou distinção",
+    texto: `
+Repórter: Excelência, parabéns pela nomeação. Como recebe o título de barão?
 
-💃 Rita: É vida danada, mas é vida minha. Aqui tem barulho, tem risada, tem samba... o povo se ajuda, se ama e se desentende, tudo no mesmo dia.
+Miranda: Agradeço. Recebo-o como reconhecimento natural de meus esforços, de minha posição e de meu compromisso com a ordem e o progresso. É um título que honra minha família.
 
-🗣️ Entrevistador: E o que te faz ser tão querida por todos?
+Repórter: Muitos comentam que o senhor sempre buscou distinção social. Este título representa a realização desse desejo?
 
-💃 Rita: Ah, meu bem, eu sou feita de festa e de liberdade. Gosto de dançar, de viver sem amarras. O povo sente isso — e quem sente alegria, sente amor também.
+Miranda: Representa, sobretudo, a confirmação de um trabalho sério. Quem se dedica à boa administração, à moral e às tradições acaba colhendo frutos.
 
-🗣️ Entrevistador: Você acredita que o cortiço representa o Brasil?
+Repórter: O cortiço fica muito próximo de sua propriedade. O senhor acredita que o título muda sua relação com o lugar ou com seus vizinhos?
 
-💃 Rita: Representa sim. Aqui tem de tudo: sofrimento, calor, esperança. É mistura de raça, de riso e de dor. Mas é onde o coração bate forte, é onde a gente vive de verdade.`
+Miranda: Minha relação permanece a mesma: distância respeitosa. Cada um ocupa o espaço que lhe cabe. O título apenas oficializa uma diferença que já existia.
+
+Repórter: E quanto à sua imagem pública? Acredita que o título reforça sua autoridade?
+
+Miranda: Sem dúvida. A sociedade valoriza símbolos. E o título é um deles — uma marca de distinção que reafirma meu papel na comunidade.
+
+Repórter: Para finalizar: o que o barão Miranda espera daqui em diante?
+
+Miranda: Apenas continuar ascendendo. Títulos são degraus, não destinos.`
   }
 ];
 
