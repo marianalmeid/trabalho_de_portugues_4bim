@@ -6,35 +6,34 @@ const personagens = [
   {
     nome: "João Romão",
     imagem: "https://i.postimg.cc/7PWYH424/joaoromao.jpg",
-    titulo: "Carta de João Romão para Miranda",
-    subtitulo: "Uma carta revelando sua ambição e desejo de ascensão social",
-    texto: `Meu caro Miranda,
+    titulo: "Carta de alforria de Bertoleza por João Romão",
+    subtitulo: "",
+    texto: `Rio de Janeiro, 12 de agosto de 1883
 
-Escrevo-lhe estas palavras movido por um misto de admiração e inveja. 
-Admiro o modo como o senhor conduz seus negócios, o respeito que desperta e a posição que ocupa entre os mais abastados desta cidade. 
-Mas confesso-lhe: não me contentarei enquanto não alcançar — ou mesmo superar — o seu prestígio.
+Eu, José Freitas de Melo, casado, senhor e legítimo possuidor da escravizada Bertoleza, de cor preta, de cerca de quarenta anos, cozinheira e conhecida por seus bons serviços, declaro que a mesma adquiriu sua liberdade mediante pagamento, tendo-me entregue integralmente a quantia estabelecida entre as partes.
 
-Trabalho dia e noite, economizo até o último vintém, e tenho feito do cortiço o alicerce do meu império. 
-Sei que muitos me julgam mesquinho, mas o progresso exige sacrifício. 
-Um dia, hei de ser reconhecido não como um simples vendeiro, mas como um homem de posses e influência.
+Pelo valor recebido e pela fiel satisfação das condições ajustadas, concedo-lhe plena e definitiva alforria, ficando desde esta data livre de qualquer cativeiro, podendo viver, trabalhar, contratar e negociar como pessoa emancipada, sem que sobre ela recaia vínculo ou obrigação para comigo, meus herdeiros ou sucessores.
 
-Com estima e ambição,
-João Romão`
+A referida liberdade é plena, irrevogável e imediata, não havendo dívida pendente, prazo a cumprir ou condição adicional. Peço às autoridades policiais, civis e judiciais que reconheçam esta carta como título legítimo de sua liberdade, devendo a dita Bertoleza ser tratada como pessoa livre, não podendo ser reclamada por quem quer que seja.
+
+E, para firmeza e validade do que fica declarado, assino a presente: José Freitas de Melo (assinatura grosseiramente imitada por João Romão).
+
+Testemunhas idôneas que presenciam e atestam o presente ato: Manuel Joaquim de Araújo, comerciante; Antônio Pereira da Fonseca, costureiro; Maria do Carmo Leitão, lavadeira — todos residentes nesta cidade, que abaixo subscrevem para fins de comprovação.`
   },
   {
-    nome: "Bertoleza",
-    imagem: "https://i.postimg.cc/d10wFNQ3/bertoleza.jpg",
-    titulo: "Artigo de Opinião por Bertoleza",
-    subtitulo: "Uma reflexão sobre a injustiça e a exploração do povo trabalhador",
-    texto: `O valor do trabalho sempre foi medido pelo suor do pobre. 
-Enquanto uns descansam, outros se dobram sob o peso da labuta e ainda são tratados como se não fossem gente.
+    nome: "Rita Baiana",
+    imagem: "https://i.postimg.cc/Dw1GfLpw/rita-baiana.jpg",
+    titulo: "O preconceito que mora entre nós",
+    subtitulo: "Por Rita Baiana",
+    texto: `No cortiço, todos vivem próximos, dividindo paredes finas, fome, festa e briga. Mesmo assim, existe um mal que pesa mais do que o calor do verão: o preconceito. Falo do olhar torto que muitos lançam a quem dança, ama e vive sem pedir licença para ninguém.
 
-Falo por mim e por tantos que, como eu, dedicam suas vidas a enriquecer os patrões. 
-A liberdade prometida nunca chega de verdade: trocamos as correntes da senzala pelas da necessidade.
+Ser mulher e ser livre neste lugar é quase um desafio. Julgam minha dança, meu jeito de falar, minha alegria. Dizem que eu “provoco demais”, quando na verdade só vivo como o coração manda. Mas por que a felicidade de uma mulher incomoda tanto? Será porque muitos aqui aprenderam a esconder seus desejos e ficam ofendidos ao ver alguém que não tem medo de senti-los?
 
-É tempo de o povo trabalhador ser reconhecido. 
-Sem nossas mãos, não há riqueza, não há cidade, não há progresso. 
-E, mesmo que minha voz se perca no vento, que ecoe a verdade: o mundo é injusto com quem trabalha.`
+Defendo que cada um cuide da própria vida. O cortiço já tem miséria demais para carregarmos também preconceitos. Se todos olhassem mais para dentro e menos para os passos dos outros, talvez a vida aqui fosse mais leve.
+
+A alegria não é crime. E se é pecado viver intensamente, então eu assumo: sou pecadora, mas sou livre.
+
+Rita Baiana`
   },
   {
     nome: "Barão Miranda",
