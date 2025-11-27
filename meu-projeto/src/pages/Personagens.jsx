@@ -16,7 +16,7 @@ Pelo valor recebido e pela fiel satisfação das condições ajustadas, concedo-
 
 A referida liberdade é plena, irrevogável e imediata, não havendo dívida pendente, prazo a cumprir ou condição adicional. Peço às autoridades policiais, civis e judiciais que reconheçam esta carta como título legítimo de sua liberdade, devendo a dita Bertoleza ser tratada como pessoa livre, não podendo ser reclamada por quem quer que seja.
 
-E, para firmeza e validade do que fica declarado, assino a presente: José Freitas de Melo (assinatura grosseiramente imitada por João Romão).
+E, para firmeza e validade do que fica declarado, assino a presente: José Freitas de Melo.
 
 Testemunhas idôneas que presenciam e atestam o presente ato: Manuel Joaquim de Araújo, comerciante; Antônio Pereira da Fonseca, costureiro; Maria do Carmo Leitão, lavadeira — todos residentes nesta cidade, que abaixo subscrevem para fins de comprovação.`
   },
